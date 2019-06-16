@@ -15,13 +15,14 @@ module.exports = function (browserify, pluginOpts = {}) {
       throw new Error('deps-dump: no filename specified')
     }
     const allDeps = {}
-    browserify.pipeline.splice('pack', 0, through((dep, _, cb) => {
+    browserify.pipeline.splice('debug', 0, through((dep, _, cb) => {
       const metaData = clone(dep)
       delete metaData.source
       allDeps[metaData.id] = metaData
       cb(null, dep)
     }, (cb) => {
       const serialized = jsonStringify(allDeps, { space: 2 })
+      console.warn(`deps-dump - writing to ${filename}`)
       fs.writeFile(filename, serialized, cb)
     }))
   }
