@@ -1,0 +1,479 @@
+{
+  "1": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/lib/_empty.js",
+    "id": 1,
+    "index": 1,
+    "indexDeps": {
+    }
+  },
+  "10": {
+    "deps": {
+      "./support/isBuffer": 9,
+      "_process": 8,
+      "inherits": 7
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/util/util.js",
+    "id": 10,
+    "index": 10,
+    "indexDeps": {
+      "./support/isBuffer": 9,
+      "_process": 8,
+      "inherits": 7
+    }
+  },
+  "11": {
+    "deps": {
+      "clone": 12,
+      "fs": 1,
+      "json-stable-stringify": 14,
+      "through2": 35
+    },
+    "entry": true,
+    "expose": false,
+    "file": "/home/xyz/Development/deps-dump/index.js",
+    "id": 11,
+    "index": 11,
+    "indexDeps": {
+      "clone": 12,
+      "fs": 1,
+      "json-stable-stringify": 14,
+      "through2": 35
+    },
+    "order": 0
+  },
+  "12": {
+    "deps": {
+      "buffer": 4
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/clone/clone.js",
+    "id": 12,
+    "index": 12,
+    "indexDeps": {
+      "buffer": 4
+    }
+  },
+  "13": {
+    "dedupe": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/inherits/inherits_browser.js",
+    "dedupeIndex": 7,
+    "deps": {
+      "dup": 7
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/inherits/inherits_browser.js",
+    "id": 13,
+    "index": 13,
+    "indexDeps": {
+      "dup": 7
+    },
+    "nomap": true,
+    "sameDeps": true
+  },
+  "14": {
+    "deps": {
+      "jsonify": 15
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/json-stable-stringify/index.js",
+    "id": 14,
+    "index": 14,
+    "indexDeps": {
+      "jsonify": 15
+    }
+  },
+  "15": {
+    "deps": {
+      "./lib/parse": 16,
+      "./lib/stringify": 17
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/jsonify/index.js",
+    "id": 15,
+    "index": 15,
+    "indexDeps": {
+      "./lib/parse": 16,
+      "./lib/stringify": 17
+    }
+  },
+  "16": {
+    "deps": {
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/jsonify/lib/parse.js",
+    "id": 16,
+    "index": 16,
+    "indexDeps": {
+    }
+  },
+  "17": {
+    "deps": {
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/jsonify/lib/stringify.js",
+    "id": 17,
+    "index": 17,
+    "indexDeps": {
+    }
+  },
+  "18": {
+    "deps": {
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/errors-browser.js",
+    "id": 18,
+    "index": 18,
+    "indexDeps": {
+    }
+  },
+  "19": {
+    "deps": {
+      "_process": 8
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/experimentalWarning.js",
+    "id": 19,
+    "index": 19,
+    "indexDeps": {
+      "_process": 8
+    }
+  },
+  "2": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/base64-js/index.js",
+    "id": 2,
+    "index": 2,
+    "indexDeps": {
+    }
+  },
+  "20": {
+    "deps": {
+      "./_stream_readable": 22,
+      "./_stream_writable": 24,
+      "_process": 8,
+      "inherits": 13
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/_stream_duplex.js",
+    "id": 20,
+    "index": 20,
+    "indexDeps": {
+      "./_stream_readable": 22,
+      "./_stream_writable": 24,
+      "_process": 8,
+      "inherits": 13
+    }
+  },
+  "21": {
+    "deps": {
+      "./_stream_transform": 23,
+      "inherits": 13
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/_stream_passthrough.js",
+    "id": 21,
+    "index": 21,
+    "indexDeps": {
+      "./_stream_transform": 23,
+      "inherits": 13
+    }
+  },
+  "22": {
+    "deps": {
+      "../errors": 18,
+      "../experimentalWarning": 19,
+      "./_stream_duplex": 20,
+      "./internal/streams/async_iterator": 25,
+      "./internal/streams/buffer_list": 26,
+      "./internal/streams/destroy": 27,
+      "./internal/streams/state": 30,
+      "./internal/streams/stream": 31,
+      "_process": 8,
+      "buffer": 4,
+      "events": 5,
+      "inherits": 13,
+      "string_decoder/": 34,
+      "util": 3
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/_stream_readable.js",
+    "id": 22,
+    "index": 22,
+    "indexDeps": {
+      "../errors": 18,
+      "../experimentalWarning": 19,
+      "./_stream_duplex": 20,
+      "./internal/streams/async_iterator": 25,
+      "./internal/streams/buffer_list": 26,
+      "./internal/streams/destroy": 27,
+      "./internal/streams/state": 30,
+      "./internal/streams/stream": 31,
+      "_process": 8,
+      "buffer": 4,
+      "events": 5,
+      "inherits": 13,
+      "string_decoder/": 34,
+      "util": 3
+    }
+  },
+  "23": {
+    "deps": {
+      "../errors": 18,
+      "./_stream_duplex": 20,
+      "inherits": 13
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/_stream_transform.js",
+    "id": 23,
+    "index": 23,
+    "indexDeps": {
+      "../errors": 18,
+      "./_stream_duplex": 20,
+      "inherits": 13
+    }
+  },
+  "24": {
+    "deps": {
+      "../errors": 18,
+      "./_stream_duplex": 20,
+      "./internal/streams/destroy": 27,
+      "./internal/streams/state": 30,
+      "./internal/streams/stream": 31,
+      "_process": 8,
+      "buffer": 4,
+      "inherits": 13,
+      "util-deprecate": 36
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/_stream_writable.js",
+    "id": 24,
+    "index": 24,
+    "indexDeps": {
+      "../errors": 18,
+      "./_stream_duplex": 20,
+      "./internal/streams/destroy": 27,
+      "./internal/streams/state": 30,
+      "./internal/streams/stream": 31,
+      "_process": 8,
+      "buffer": 4,
+      "inherits": 13,
+      "util-deprecate": 36
+    }
+  },
+  "25": {
+    "deps": {
+      "./end-of-stream": 28,
+      "_process": 8
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/async_iterator.js",
+    "id": 25,
+    "index": 25,
+    "indexDeps": {
+      "./end-of-stream": 28,
+      "_process": 8
+    }
+  },
+  "26": {
+    "deps": {
+      "buffer": 4,
+      "util": 3
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/buffer_list.js",
+    "id": 26,
+    "index": 26,
+    "indexDeps": {
+      "buffer": 4,
+      "util": 3
+    }
+  },
+  "27": {
+    "deps": {
+      "_process": 8
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/destroy.js",
+    "id": 27,
+    "index": 27,
+    "indexDeps": {
+      "_process": 8
+    }
+  },
+  "28": {
+    "deps": {
+      "../../../errors": 18
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/end-of-stream.js",
+    "id": 28,
+    "index": 28,
+    "indexDeps": {
+      "../../../errors": 18
+    }
+  },
+  "29": {
+    "deps": {
+      "../../../errors": 18,
+      "./end-of-stream": 28
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/pipeline.js",
+    "id": 29,
+    "index": 29,
+    "indexDeps": {
+      "../../../errors": 18,
+      "./end-of-stream": 28
+    }
+  },
+  "3": {
+    "dedupe": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/lib/_empty.js",
+    "dedupeIndex": 1,
+    "deps": {
+      "dup": 1
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/browser-resolve/empty.js",
+    "id": 3,
+    "index": 3,
+    "indexDeps": {
+      "dup": 1
+    },
+    "nomap": true,
+    "sameDeps": true
+  },
+  "30": {
+    "deps": {
+      "../../../errors": 18
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/state.js",
+    "id": 30,
+    "index": 30,
+    "indexDeps": {
+      "../../../errors": 18
+    }
+  },
+  "31": {
+    "deps": {
+      "events": 5
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/lib/internal/streams/stream-browser.js",
+    "id": 31,
+    "index": 31,
+    "indexDeps": {
+      "events": 5
+    }
+  },
+  "32": {
+    "deps": {
+      "./lib/_stream_duplex.js": 20,
+      "./lib/_stream_passthrough.js": 21,
+      "./lib/_stream_readable.js": 22,
+      "./lib/_stream_transform.js": 23,
+      "./lib/_stream_writable.js": 24,
+      "./lib/internal/streams/end-of-stream.js": 28,
+      "./lib/internal/streams/pipeline.js": 29
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/readable-stream/readable-browser.js",
+    "id": 32,
+    "index": 32,
+    "indexDeps": {
+      "./lib/_stream_duplex.js": 20,
+      "./lib/_stream_passthrough.js": 21,
+      "./lib/_stream_readable.js": 22,
+      "./lib/_stream_transform.js": 23,
+      "./lib/_stream_writable.js": 24,
+      "./lib/internal/streams/end-of-stream.js": 28,
+      "./lib/internal/streams/pipeline.js": 29
+    }
+  },
+  "33": {
+    "deps": {
+      "buffer": 4
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/safe-buffer/index.js",
+    "id": 33,
+    "index": 33,
+    "indexDeps": {
+      "buffer": 4
+    }
+  },
+  "34": {
+    "deps": {
+      "safe-buffer": 33
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/string_decoder/lib/string_decoder.js",
+    "id": 34,
+    "index": 34,
+    "indexDeps": {
+      "safe-buffer": 33
+    }
+  },
+  "35": {
+    "deps": {
+      "_process": 8,
+      "readable-stream": 32,
+      "util": 10
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/through2/through2.js",
+    "id": 35,
+    "index": 35,
+    "indexDeps": {
+      "_process": 8,
+      "readable-stream": 32,
+      "util": 10
+    }
+  },
+  "36": {
+    "deps": {
+    },
+    "file": "/home/xyz/Development/deps-dump/node_modules/util-deprecate/browser.js",
+    "id": 36,
+    "index": 36,
+    "indexDeps": {
+    }
+  },
+  "4": {
+    "deps": {
+      "base64-js": 2,
+      "buffer": 4,
+      "ieee754": 6
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/buffer/index.js",
+    "id": 4,
+    "index": 4,
+    "indexDeps": {
+      "base64-js": 2,
+      "buffer": 4,
+      "ieee754": 6
+    }
+  },
+  "5": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/events/events.js",
+    "id": 5,
+    "index": 5,
+    "indexDeps": {
+    }
+  },
+  "6": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/ieee754/index.js",
+    "id": 6,
+    "index": 6,
+    "indexDeps": {
+    }
+  },
+  "7": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/inherits/inherits_browser.js",
+    "id": 7,
+    "index": 7,
+    "indexDeps": {
+    }
+  },
+  "8": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/process/browser.js",
+    "id": 8,
+    "index": 8,
+    "indexDeps": {
+    }
+  },
+  "9": {
+    "deps": {
+    },
+    "file": "/home/xyz/.nvm/versions/node/v10.16.0/lib/node_modules/browserify/node_modules/util/support/isBufferBrowser.js",
+    "id": 9,
+    "index": 9,
+    "indexDeps": {
+    }
+  }
+}

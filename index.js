@@ -1,3 +1,4 @@
+const fs = require('fs')
 const through = require('through2').obj
 const clone = require('clone')
 const jsonStringify = require('json-stable-stringify')
@@ -9,17 +10,19 @@ module.exports = function (browserify, pluginOpts = {}) {
   setupPlugin()
 
   function setupPlugin () {
-    const filename = { pluginOpts }
-    if (!filename) throw new Error('deps-dump: no filename specified')
+    const { filename } = pluginOpts
+    if (!filename) {
+      throw new Error('deps-dump: no filename specified')
+    }
     const allDeps = {}
     browserify.pipeline.splice('pack', 0, through((dep, _, cb) => {
       const metaData = clone(dep)
       delete metaData.source
       allDeps[metaData.id] = metaData
       cb(null, dep)
-    }), (cb) => {
+    }, (cb) => {
       const serialized = jsonStringify(allDeps, { space: 2 })
-      false.writeFile(filename, serialized, cb)
-    })
+      fs.writeFile(filename, serialized, cb)
+    }))
   }
 }
