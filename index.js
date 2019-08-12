@@ -17,7 +17,6 @@ module.exports = function (browserify, pluginOpts = {}) {
     const allDeps = {}
     browserify.pipeline.splice('debug', 0, through((dep, _, cb) => {
       const metaData = clone(dep)
-      delete metaData.source
       allDeps[metaData.id] = metaData
       cb(null, dep)
     }, (cb) => {
